@@ -339,7 +339,7 @@ console.log(`Computer's Number: ${n}`);
 
 while (input != n) {
     alert(" 😦 oh no, refresh to try again...");
-    /*window.location.reload(true);*/
+    window.location.reload(true);
     window.location.replace("https://ellie-yeah.github.io/guess_the_number/");
 }
 if (input == n) {
