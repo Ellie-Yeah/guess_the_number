@@ -339,7 +339,7 @@ console.log(`Computer's Number: ${n}`);
 
 while (input != n) {
     alert(" 😦 oh no, refresh to try again...");
-    window.location.reload();
+    window.location.reload(true);
 }
 if (input == n) {
     alert(" 😄 YOU WIN!!! XD");
