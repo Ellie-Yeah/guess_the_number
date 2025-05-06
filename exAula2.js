@@ -347,7 +347,7 @@ if (input == n) {
 } */
 if (n !== input) {
     alert(`😦 Oh that's not it, try again\nComputer has played: ${n}\nYou have played: ${input}` )
-    window.location.reload();
+        location.reload();
 } else {
     alert(`😄 You win!\nComputer has played: ${n}\nYou have played: ${input}`)
 
