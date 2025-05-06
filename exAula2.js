@@ -332,7 +332,7 @@ if (input != n) {
 
 //now changing the while condition, because «While Loop is used when we want to repeat a set of instructions, while a condition is true», so what i want is to relaunch the game each time the n != input
 
-const input = prompt("Indica um numero entre 1 e 10");
+const input = prompt("Give a number between 1 and 10:");
 console.log(`User's Number: ${parseInt(input)}`);
 const n = (Math.floor(Math.random() * 10) + 1);
 console.log(`Computer's Number: ${n}`);
