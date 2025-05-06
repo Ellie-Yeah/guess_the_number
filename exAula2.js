@@ -346,10 +346,10 @@ if (input == n) {
     alert(" 😄 YOU WIN!!! XD");
 } */
 if (n !== input) {
-    alert(`😦 Oh that's not it, try again\nComputer has played: ${n}\nYou have played: ${input}` )
+    alert(`😦 Oh that's not it, try again\nComputer has played: ${n}\nYou have played: ${input}` );
         location.reload();
 } else {
-    alert(`😄 You win!\nComputer has played: ${n}\nYou have played: ${input}`)
+    alert(`😄 You win!\nComputer has played: ${n}\nYou have played: ${input}`);
 }
 
 //i've made the variables const - because while inspecting the webpage, to see the console, it was giving me some errors, and one on them mentioned "let", so I decided to use "const" instead
