@@ -345,13 +345,14 @@ while (input != n) {
 if (input == n) {
     alert(" 😄 YOU WIN!!! XD");
 } */
-if (n !== input) {
-    alert(`😦 Oh that's not it, try again\nComputer has played: ${n}\nYou have played: ${input}` );
-        location.reload();
-} else {
-    alert(`😄 You win!\nComputer has played: ${n}\nYou have played: ${input}`);
-}
 
+
+if (n !== input) {
+    alert(`😦 Oh that's not it, try again\nComputer has played: ${n}\nYou have played ${input}`);
+    location.reload();
+} else {
+    alert(`😄 You win!\nComputer has played: ${n}\nYou have played ${input}`);
+}
 //i've made the variables const - because while inspecting the webpage, to see the console, it was giving me some errors, and one on them mentioned "let", so I decided to use "const" instead
 
 // like this the game works, as in the messages are displaying correctly, and the comparisons aswell, BUT, i need to refresh the page each time to play a new game, even after getting the "try again"
