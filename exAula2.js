@@ -336,7 +336,7 @@ const input = prompt("Indica um numero entre 1 e 10");
 console.log(`User's Number: ${parseInt(input)}`);
 const n = (Math.floor(Math.random() * 10) + 1);
 console.log(`Computer's Number: ${n}`);
-
+/*
 while (input != n) {
     alert(" 😦 oh no, refresh to try again...");
     window.location.reload(true);
@@ -344,7 +344,14 @@ while (input != n) {
 }
 if (input == n) {
     alert(" 😄 YOU WIN!!! XD");
-} 
+} */
+if (n !== input) {
+    alert(`😦 Oh that's not it, try again\nComputer has played: ${n}\nYou have played: ${input}` )
+    window.location.reload();
+} else {
+    alert(`😄 You win!\nComputer has played: ${n}\nYou have played: ${input}`)
+
+
 //i've made the variables const - because while inspecting the webpage, to see the console, it was giving me some errors, and one on them mentioned "let", so I decided to use "const" instead
 
 // like this the game works, as in the messages are displaying correctly, and the comparisons aswell, BUT, i need to refresh the page each time to play a new game, even after getting the "try again"
